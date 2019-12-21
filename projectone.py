@@ -6,6 +6,7 @@ class Person():
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -24,3 +25,9 @@ class Student(Person):
         self.average = avrg
         self.institute = ins
 >>>>>>> evghega
+=======
+class Student(Person):
+    def _init_(self, avrg, ins):
+        self.average = avrg
+        self.institute = ins
+>>>>>>> 9e8bd0af5014415dea60b60b2f00f5885e880f07
