@@ -4,3 +4,7 @@ class Person:
         self.id = id
 
 
+class Student(Person):
+    def _init_(self, avrg, ins):
+        self.average = avrg
+        self.institute = ins
