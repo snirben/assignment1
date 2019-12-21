@@ -17,3 +17,8 @@ class Person():
 class Employee(Person):
     def __init__(self, salary):
         self.salary = salary
+
+
+def main():
+    size = int(input('Enter size for arr'))
+    arr = []
