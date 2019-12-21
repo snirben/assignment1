@@ -1,3 +1,4 @@
+import math
 class Person():
     def __init__(self, name, id, age):
         self.name = name
@@ -22,3 +23,5 @@ class Employee(Person):
 def main():
     size = int(input('Enter size for arr'))
     arr = []
+    for i in range(size):
+        type = input("Enter type of person(Studen , Employee,WorkingStudent):")
