@@ -27,5 +27,9 @@ def main():
     size = int(input('Enter size for arr'))
     arr = []
     for i in range(size):
+<<<<<<< HEAD
         type = input("Enter type of person(Studen , Employee,WorkingStudent):")
+=======
+        type = input("Enter type of person(Student , Employee, WorkingStudent):")
+>>>>>>> evghega
 
