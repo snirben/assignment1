@@ -5,6 +5,7 @@ class Person():
         self.age = age
 
 
+<<<<<<< HEAD
 
 
 
@@ -17,3 +18,9 @@ class Person():
 class Employee(Person):
     def __init__(self, salary):
         self.salary = salary
+=======
+class Student(Person):
+    def _init_(self, avrg, ins):
+        self.average = avrg
+        self.institute = ins
+>>>>>>> evghega
