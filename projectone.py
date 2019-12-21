@@ -4,3 +4,15 @@ class Person:
         self.id = id
 
 
+
+
+
+
+
+
+
+
+
+class Employee(Person):
+    def __init__(self, salary):
+        self.salary = salary
