@@ -30,3 +30,4 @@ def main():
         type = input("Enter type of person(Student , Employee, WorkingStudent):")
 
 
+
