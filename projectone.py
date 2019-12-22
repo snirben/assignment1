@@ -44,11 +44,14 @@ class WorkingStudent(Employee, Student):
 
 
 
-def main():
-    size = int(input('Enter size for arr'))
+def start():
+    size = int(input("Enter size for arr:"))
     arr = []
-    for i in range(size):
-        type = input("Enter type of person(Student , Employee, WorkingStudent):")
+    for i in range(0, size):
+        type = input("Enter type of person(Student , Employee, Workingstudent):")
+        while type not in ('Student', 'Employee', 'Workingstudent'):
+            print("This type is not exist!!\n Try again ")
+            type = input("Enter type of person(Student , Employee, Workingstudent):")
 
 
 
