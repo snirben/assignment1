@@ -20,6 +20,13 @@ class Employee(Person):
 
 
 
+class WorkingStudent(Employee, Student):
+    def __init__(self, name, i_d, age, average, institute, salary, same_institute):
+        Employee.__init__(self, name, i_d, age, salary)
+        Student.__init__(self, name, i_d, age, average, institute)
+        self.same_institute = same_institute
+
+
 
 
 
