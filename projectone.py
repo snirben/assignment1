@@ -5,9 +5,11 @@ class Person():
         self.id = id
         self.age = age
 
-
-
-
+class Student(Person):
+    def __init__(self, name, i_d, age, average, institute):
+        Person.__init__(self, name, i_d, age)
+        self.average = average
+        self.institute = institute
 
 
 
@@ -16,10 +18,7 @@ class Employee(Person):
         self.salary = salary
 
 
-class Student(Person):
-    def _init_(self, avrg, ins):
-        self.average = avrg
-        self.institute = ins
+
 
 
 
