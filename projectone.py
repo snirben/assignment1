@@ -19,6 +19,12 @@ class Employee(Person):
         self.salary = salary
 
     def funcprint(self):
+        print("EMPLOYEE:")
+        print("Name:", self.name)
+        print("ID:", self.i_d)
+        print("Age", self.age)
+        print("Salary:", self.salary)
+
 
 class WorkingStudent(Employee, Student):
     def __init__(self, name, i_d, age, average, institute, salary, same_institute):
