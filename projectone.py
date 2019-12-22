@@ -60,6 +60,19 @@ def start():
                 institute = input("Enter institute:")
                 s = Student(name, i_d, age, average, institute)
                 arr.append(s)
+            if type == "Workingstudent":
+                name = input("Enter name:")
+                i_d = input("Enter ID:")
+                age = input("Enter age:")
+                average = input("Enter avareage:")
+                institute = input("Enter intitute:")
+                salary = input("Enter salary:")
+                same_institute = input("Are the Student from the same institute?:")
+                w = WorkingStudent(name, i_d, age, average, institute, salary, same_institute)
+                arr.append(w)
+    printall(arr)
+
+start()
 
 
 
