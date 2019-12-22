@@ -18,7 +18,7 @@ class Employee(Person):
     def __init__(self, salary):
         self.salary = salary
 
-
+    def funcprint(self):
 
 class WorkingStudent(Employee, Student):
     def __init__(self, name, i_d, age, average, institute, salary, same_institute):
