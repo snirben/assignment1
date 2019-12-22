@@ -26,7 +26,15 @@ class WorkingStudent(Employee, Student):
         Student.__init__(self, name, i_d, age, average, institute)
         self.same_institute = same_institute
 
-
+    def funcprint(self):
+        print("WORKINSTUDENT:")
+        print("Name:", self.name)
+        print("ID:", self.i_d)
+        print("Age", self.age)
+        print("Average:", self.average)
+        print("institute:", self.institute)
+        print("Salary:", self.salary)
+        print("Are the Student from the same institute:",self.same_institute)
 
 
 
