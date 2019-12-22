@@ -62,7 +62,7 @@ def start():
         while type not in ('Student', 'Employee', 'Workingstudent'):
             print("This type is not exist!!\n Try again ")
             type = input("Enter type of person(Student , Employee, Workingstudent):")
-            if type == "Student":
+        if type == "Student":
                 name = input("Enter name:")
                 i_d = input("Enter ID:")
                 age = input("Enter age:")
@@ -70,14 +70,14 @@ def start():
                 institute = input("Enter institute:")
                 s = Student(name, i_d, age, average, institute)
                 arr.append(s)
-            if type == "Employee":
+        if type == "Employee":
                 name = input("Enter name:")
                 i_d = input("Enter ID:")
                 age = input("Enter age:")
                 salary = input("Enter salary:")
                 e = Employee(name, i_d, age, salary)
                 arr.append(e)
-            if type == "Workingstudent":
+        if type == "Workingstudent":
                 name = input("Enter name:")
                 i_d = input("Enter ID:")
                 age = input("Enter age:")
