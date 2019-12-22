@@ -48,6 +48,9 @@ class WorkingStudent(Employee, Student):
         print("institute:", self.institute)
         print("Salary:", self.salary)
         print("Are the Student from the same institute:",self.same_institute)
+def printall(arr):
+    for i in range(0, len(arr)):
+        arr[i].funcprint()
 
 
 
