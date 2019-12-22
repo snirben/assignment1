@@ -1,9 +1,9 @@
 import math
 
-class Person():
-    def __init__(self, name, id, age):
+class Person:
+    def __init__(self, name, i_d, age):
         self.name = name
-        self.id = id
+        self.i_d = i_d
         self.age = age
 
 class Student(Person):
@@ -12,6 +12,13 @@ class Student(Person):
         self.average = average
         self.institute = institute
 
+    def funcprint(self):
+        print("STUDENT:")
+        print("Name:",self.name)
+        print("ID:",self.i_d)
+        print("Age",self.age)
+        print("Average:",self.average)
+        print("institute:",self.institute)
 
 
 class Employee(Person):
